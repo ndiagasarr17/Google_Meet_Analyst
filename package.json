@@ -1,12 +1,12 @@
 {
   "name": "test-api-t",
   "version": "1.0.0",
-  "description": "une petite description",
+  "description": "notre description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "NdiagaSarr",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
