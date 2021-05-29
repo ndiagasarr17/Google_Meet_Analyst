@@ -1,0 +1,113 @@
+body {
+  margin:50;
+}
+legend {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.backg {
+  animation:slide 45s ease-in-out infinite alternate;
+  background-image: url("vecteur.jpg");
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color:#fff;
+
+}
+.bouton {
+  background-color: #008000;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-20%);
+  }
+  100% {
+    transform:translateX(20%);
+  }
+}
+.rc {
+  border-radius: 25px;
+  border: 2px solid #ff00f2;
+  padding: 50px; 
+  width: 900px;
+  height: 2650px;  
+  color: rgb(51, 51, 51);
+  background-color: rgb(238, 238, 238);
+  margin-left: auto;
+  margin-right: auto;
+}   
+.box button[type="submit"] {
+    border: 0;
+    background: whitesmoke;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #c1b6c7;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(37, 34, 34);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer ;
+    width: 300px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color:#fff;
+}
+
+.box button[type="submit"]:hover {
+    background: #b635af;
+}
